@@ -93,6 +93,83 @@ function toggleContent() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const gallery = document.getElementById("gallery");
+    const images = gallery.getElementsByTagName("img");
+
+    const modal = document.getElementById("galleryModal");
+    const modalContent = modal.querySelector(".modal-content");
+
+    for (let img of images) {
+        img.addEventListener("click", function () {
+            const expandedImgSrc = this.src;
+
+            // Clear previous content
+            modalContent.innerHTML = "";
+
+            // Create Swiper container
+            const swiperContainer = document.createElement("div");
+            swiperContainer.classList.add("swiper-container");
+
+            // Create Swiper wrapper
+            const swiperWrapper = document.createElement("div");
+            swiperWrapper.classList.add("swiper-wrapper");
+
+            // Create image slides
+            for (let i = 0; i < images.length; i++) {
+                const swiperSlide = document.createElement("div");
+                swiperSlide.classList.add("swiper-slide");
+
+                // Create image element
+                const imgElement = document.createElement("img");
+                imgElement.src = images[i].src;
+                imgElement.classList.add("expanded-img");
+
+                // Append image to slide
+                swiperSlide.appendChild(imgElement);
+
+                // Append slide to wrapper
+                swiperWrapper.appendChild(swiperSlide);
+            }
+
+            // Append wrapper to container
+            swiperContainer.appendChild(swiperWrapper);
+
+            // Append container to modal content
+            modalContent.appendChild(swiperContainer);
+
+            // Add navigation buttons
+            const nextButton = document.createElement("div");
+            nextButton.classList.add("swiper-button-next");
+            const prevButton = document.createElement("div");
+            prevButton.classList.add("swiper-button-prev");
+            swiperContainer.appendChild(nextButton);
+            swiperContainer.appendChild(prevButton);
+    
+            // Initialize Swiper
+            const swiper = new Swiper(swiperContainer, {
+                // Swiper options here...
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+            // Show modal
+            modal.style.display = "block";
+        });
+    }
+
+    // Close modal when clicking close button
+    const closeBtn = modal.querySelector(".close-btn");
+    closeBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+    });
+
+    
+});
+
 // Show/hide file upload options based on radio button selection
   document.addEventListener("DOMContentLoaded", function () {
     var uploadHazmatReport = document.getElementById("uploadHazmatReport");
@@ -114,7 +191,30 @@ function toggleContent() {
         uploadHazmatReport.style.display = this.checked ? "block" : "none";
         hazmatMessage.style.display = this.checked ? "block" : "none";
     });
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        const gallery = document.getElementById("gallery");
+        const images = gallery.getElementsByTagName("img");
+    
+        for (let img of images) {
+            img.addEventListener("click", function () {
+                alert("Image clicked: " + this.src);
 
+                console.log("Image clicked:", this.src);
+                if (this.classList.contains("expanded")) {
+                    this.classList.remove("expanded");
+                } else {
+                    // Remove expanded class from all images
+                    for (let img of images) {
+                        img.classList.remove("expanded");
+                    }
+                    this.classList.add("expanded");
+                }
+            });
+        }
+    });
+    
+    
     document.getElementById("hazmatNo").addEventListener("change", function () {
         uploadHazmatReport.style.display = "none";
         hazmatMessage.style.display = "none";
@@ -250,3 +350,4 @@ function showConfirmationModal(message) {
     var confirmationModal = new bootstrap.Modal(document.getElementById('confirmationModal'));
     confirmationModal.show();
 }
+
