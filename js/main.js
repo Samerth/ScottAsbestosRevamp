@@ -315,7 +315,7 @@ function emailSend() {
                 Host: "smtp.elasticemail.com",
                 Username: "digitedget@gmail.com",
                 Password: "4F0AC85FD3767CAF8392E47AA51C4B19575E",
-                To: 'kirtisethi22@gmail.com',
+                To: 'kirti@scottasbestos.com',
                 From: "digitedget@gmail.com",
                 Subject: "Estimate Request: " + subject,
                 Body: emailBody,
