@@ -342,7 +342,7 @@ function readFileAsBase64(file, callback) {
     }
 }
 function showConfirmationModal(message) {
-    // Set the content of the modal
+    // Set the content of the modal6
     var modalContent = document.getElementById("modalContent");
     modalContent.innerHTML = '<span class="text-success"><i class="bi bi-check-circle"></i> Message Sent Successfully</span><br>' + message;
 
