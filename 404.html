@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Makaan - Real Estate HTML Template</title>
+    <title>Scott Asbestos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/scott_logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -26,6 +27,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -34,7 +40,8 @@
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -42,215 +49,379 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <div class="icon p-2 me-2">
-                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+
+  <!-- Navbar Start -->
+  <div class="container-fluid nav-bar bg-transparent">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+        <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+            <div><!-- class="icon p-2 me-2" -->
+                <img class="img-fluid" src="img/scott_logo.png" alt="scott_logo"
+                    style="width: 160px; height: 90px;">
+            </div>
+            <h1 class="m-0 text-primary"></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="AboutUs.html" class="nav-item nav-link">About Us</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="Asbestos_Sampling.html" class="dropdown-item">Asbestos Sampling</a>
+                        <a href="AsbestosAbatement.html" class="dropdown-item">Asbestos Abatement</a>
+                        <a href="LeadSampling.html" class="dropdown-item">Lead Sampling</a>
+                        <a href="LeadAbatement.html" class="dropdown-item">Lead Abatement</a>
+                        <a href="HMIReports.html" class="dropdown-item">Hazardous Material Inspection
+                            Reports</a>
+                        <a href="Bio-Hazard.html" class="dropdown-item">Biohazard and Trauma cleanup</a>
+                        <a href="mould_inspection.html" class="dropdown-item">Mould Inspections and Indoor Air
+                            Quality Testing</a>
+                        <a href="mould_remediation.html" class="dropdown-item">Mould Remediation</a>
+                        <a href="Demolition.html" class="dropdown-item">Building Demolition</a>
+                        <a href="Media-Blasting.html" class="dropdown-item">Media Blasting</a>
                     </div>
-                    <h1 class="m-0 text-primary">Makaan</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="property-list.html" class="dropdown-item">Property List</a>
-                                <a href="property-type.html" class="dropdown-item">Property Type</a>
-                                <a href="property-agent.html" class="dropdown-item">Property Agent</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item active">404 Error</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
                 </div>
-            </nav>
+                <a href="projects.html" class="nav-item nav-link">Projects</Prog></a>
+                <!-- <a href="index.html" class="nav-item nav-link active">Blog</a> -->
+                <a href="contact.html" class="nav-item nav-link">Contact US</a>
+            </div>
+            <!-- <a href="contact.html#estimate-form" class="btn btn-primary px-3 d-none d-lg-flex">Get Quotes</a> -->
+            <a href="tel:your-phone-number" class="btn btn-primary px-3 d-none d-lg-flex call-icon">
+                <span>☎ Get Quotes</span>
+                <span class="call-number">(778) 400-6715</span>
+            </a>
+
         </div>
-        <!-- Navbar End -->
+    </nav>
+</div>
+<!-- Navbar End -->
+
+
 
 
         <!-- Header Start -->
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">404 Error</h1> 
-                        <nav aria-label="breadcrumb animated fadeIn">
-                        <ol class="breadcrumb text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-body active" aria-current="page">404 Error</li>
-                        </ol>
-                    </nav>
+                    <h1 class="display-5 animated fadeIn mb-4">Contact Us</h1>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/header.jpg" alt="">
+                    <img class="img-fluid" src="img/AsbestosAbatementbanner.jpg" alt="">
                 </div>
             </div>
         </div>
         <!-- Header End -->
 
 
-        <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
+                <!-- <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Contact Us</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
+                        eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div> -->
+                <div class="row g-4">
+                    <div class="col-12">
+                        <div class="row gy-4">
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="bg-light rounded p-3">
+                                    <div class="d-flex align-items-center bg-white rounded p-3"
+                                        style="border: 1px dashed rgba(0, 185, 142, .3)">
+                                        <div class="icon me-3" style="width: 45px; height: 45px;">
+                                            <i class="fa fa-map-marker-alt text-primary"></i>
+                                        </div>
+                                        <span>18418 53 Ave #103, Surrey, BC V3S 7A4, Canada</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3">
-                                    <option selected>Property Type</option>
-                                    <option value="1">Property Type 1</option>
-                                    <option value="2">Property Type 2</option>
-                                    <option value="3">Property Type 3</option>
-                                </select>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="bg-light rounded p-3">
+                                    <div class="d-flex align-items-center bg-white rounded p-3"
+                                        style="border: 1px dashed rgba(0, 185, 142, .3)">
+                                        <div class="icon me-3" style="width: 45px; height: 45px;">
+                                            <i class="fa fa-envelope-open text-primary"></i>
+                                        </div>
+                                        <span>info@scottasbestos.com</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3">
-                                    <option selected>Location</option>
-                                    <option value="1">Location 1</option>
-                                    <option value="2">Location 2</option>
-                                    <option value="3">Location 3</option>
-                                </select>
+                            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="bg-light rounded p-3">
+                                    <div class="d-flex align-items-center bg-white rounded p-3"
+                                        style="border: 1px dashed rgba(0, 185, 142, .3)">
+                                        <div class="icon me-3" style="width: 45px; height: 45px;">
+                                            <i class="fa fa-phone-alt text-primary"></i>
+                                        </div>
+                                        <span>(778) 400-6715</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-dark border-0 w-100 py-3">Search</button>
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <iframe class="position-relative rounded w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2612.365145262397!2d-122.71475562367102!3d49.09870327136583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d00247d8c505%3A0x6a3105e77f112740!2s18418%2053%20Ave%2C%20Surrey%2C%20BC%20V3S%207A4!5e0!3m2!1sen!2sca!4v1707498684344!5m2!1sen!2sca"
+                            frameborder="0" style="min-height: 400px; border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                    <div id="estimate-form" class="col-md-6">
+                        <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <p class="mb-4">Get An Estimate</p>
+                            <form onsubmit="event.preventDefault(); emailSend();" id="contactForm" method="post"
+                                enctype="multipart/form-data">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                                placeholder="Your Name" required>
+                                            <label for="firstName">First Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                                placeholder="Your Name" required>
+                                            <label for="lastName">Last Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email" required>
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="tel" class="form-control" id="phone" name="phone"
+                                                placeholder="Your Phone" required>
+                                            <label for="phone">Phone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Do you have a hazmat report? </p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="hazmatReport"
+                                                id="hazmatYes" value="yes" required>
+                                            <label class="form-check-label" for="hazmatYes">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="hazmatReport"
+                                                id="hazmatNo" value="no" required>
+                                            <label class="form-check-label" for="hazmatNo">No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Do you have photos of the area of concern?</p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="photosOfConcern"
+                                                id="photosYes" value="yes" required>
+                                            <label class="form-check-label" for="photosYes">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="photosOfConcern"
+                                                id="photosNo" value="no" required>
+                                            <label class="form-check-label" for="photosNo">No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12" id="uploadHazmatReport" style="display: none;">
+                                        <label for="fileHazmatReport">Upload Hazmat Report:</label>
+                                        <input type="file" class="form-control" id="fileHazmatReport"
+                                            name="fileHazmatReport" accept=".pdf,.doc,.docx">
+                                    </div>
+                                    <div class="col-12" id="uploadPhotosConcern" style="display: none;">
+                                        <label for="fileAreaConcern">Upload Photos of Concern:</label>
+                                        <input type="file" class="form-control" id="fileAreaConcern"
+                                            name="fileAreaConcern" accept="image/*">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                placeholder="Subject" required>
+                                            <label for="subject">Property Address</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" name="message" style="height: 150px" required></textarea>
+                                            <label for="message">Brief Description</label>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+
+
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+            </div>
+ <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Get In Touch</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>18418 53 Ave #103, Surrey, BC V3S 7A4,
+                    Canada</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(778) 400-6715</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@scottasbestos.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://twitter.com/ScottRemov36441"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/scottasbestos/"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.instagram.com/scottasbestos?fbclid=IwAR2IMeH5qndNbF-O1DrXIp382TV5M4fbxjt4B0Cb38oEt0eYm2AkbPGGwvg"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social"
+                        href="https://www.linkedin.com/company/scott-asbestos-and-hazardous-material-removal-ltd/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex">
+                <div>
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <div class="col-md-12">
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-link text-white-50" href="AboutUs.html">About Us</a></li>
+                            <li><a class="btn btn-link text-white-50" href="contact.html">Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-3 col-md-12">
+                <h5 class="text-white mb-4">Photo Gallery</h5>
+                <div class="row g-2 pt-2" id="gallery">
+                    <!-- Project 1 Images -->
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/0.jpg" alt="Lead-Paint-Removal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/1.jpg" alt="Lead-Paint-Removal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/2.jpg" alt="Lead-Paint-Removal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/3.jpg" alt="Lead-Paint-Removal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/4.jpg" alt="Lead-Paint-Removal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/5.jpg" alt="HMI-Sampling">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/6.jpg" alt="HMI-Sampling">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/7.jpg" alt="HMI-Sampling">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/8.jpg" alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/abatement.jpg" alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/pipe_insulation.jpg"
+                            alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/banner4.webp" alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/Disposal.jpg" alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/mouldy_ceiling.jpg"
+                            alt="Drywall-Disposal">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                        <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/service_leadabatement.jpg"
+                            alt="Drywall-Disposal">
+                    </div>
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+
+            <!-- Expanded Image Gallery Modal -->
+            <div id="galleryModal" class="modal">
+                <span class="close-btn">&times;</span>
+                <div class="modal-content">
+                    <!-- Image slider will be added here -->
+                    <img id="expandedImage" class="expanded-img" src="" alt="Expanded Image">
+                </div>
+            </div>
+
+
+ 
         </div>
-        <!-- Search End -->
-
-
-        <!-- 404 Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-                        <h1 class="display-1">404</h1>
-                        <h1 class="mb-4">Page Not Found</h1>
-                        <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                        <a class="btn btn-primary py-3 px-5" href="">Go Back To Home</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 404 End -->
-
-        
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Photo Gallery</h5>
-                        <div class="row g-2 pt-2">
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">Copyright © 2024 Scott Asbestos And Hazardous Material
+                        Removal Ltd.</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="border-bottom" href="https://codsphere.in">CodSphere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                <!-- Back to Top -->
+                <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            </div>
+<!-- Modal for Form Submission Confirmation -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Form Submission Confirmation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="modalContent"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- JavaScript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Template Javascript -->
+            <script src="https://smtpjs.com/v3/smtp.js"> </script>
+            <script src="js/main.js"></script>
+    
+
 </body>
+
 
 </html>
