@@ -554,3 +554,7 @@ input:required,
 textarea:required {
     border-color: black;
 }
+
+.fixed-height {
+    height: 100%; /* Set a fixed height for all project boxes */
+}
