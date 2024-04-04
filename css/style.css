@@ -548,3 +548,9 @@ input:required {
     cursor: pointer;
     z-index: 999; /* Adjust the z-index value as needed */
 }
+
+
+input:required,
+textarea:required {
+    border-color: black;
+}

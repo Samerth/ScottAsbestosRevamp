@@ -93,6 +93,8 @@ function toggleContent() {
     }
 }
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const gallery = document.getElementById("gallery");
     const images = gallery.getElementsByTagName("img");
