@@ -173,33 +173,33 @@
                     <div id="estimate-form" class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s">
                             <p class="mb-4">Get An Estimate</p>
-                            <form onsubmit="event.preventDefault(); emailSend(); checkForm(event)" id="contactForm" method="post"
+                            <form action="https://formspree.io/f/xjvnpnjw"   id="contactForm" method="post"
                                 enctype="multipart/form-data">
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                            <input type="text" class="form-control" id="firstName" name="First Name:"
                                                 placeholder="Your Name" required>
                                             <label for="firstName">First Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                            <input type="text" class="form-control" id="lastName" name="Last Name:"
                                                 placeholder="Your Name" required>
                                             <label for="lastName">Last Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" name="email"
+                                            <input type="email" class="form-control" id="email" name="Email:"
                                                 placeholder="Your Email" required>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="tel" class="form-control" id="phone" name="phone"
+                                            <input type="tel" class="form-control" id="phone" name="Phone:"
                                                 placeholder="Your Phone" required>
                                             <label for="phone">Phone</label>
                                         </div>
@@ -207,12 +207,12 @@
                                     <div class="col-12">
                                         <p>Do you have a hazmat report? </p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hazmatReport"
+                                            <input class="form-check-input" type="radio" name="Hazmat Report:"
                                                 id="hazmatYes" value="yes" required>
                                             <label class="form-check-label" for="hazmatYes">Yes</label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hazmatReport"
+                                            <input class="form-check-input" type="radio" name="Hazmat Report:"
                                                 id="hazmatNo" value="no" required>
                                             <label class="form-check-label" for="hazmatNo">No</label>
                                         </div>
@@ -220,29 +220,29 @@
                                     <div class="col-12">
                                         <p>Do you have photos of the area of concern?</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="photosOfConcern"
+                                            <input class="form-check-input" type="radio" name="Photos of Concern:"
                                                 id="photosYes" value="yes" required>
                                             <label class="form-check-label" for="photosYes">Yes</label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="photosOfConcern"
+                                            <input class="form-check-input" type="radio" name="Photos of Concern:"
                                                 id="photosNo" value="no" required>
                                             <label class="form-check-label" for="photosNo">No</label>
                                         </div>
                                     </div>
                                     <div class="col-12" id="uploadHazmatReport" style="display: none;">
                                         <label for="fileHazmatReport">Upload Hazmat Report:</label>
-                                        <input type="file" class="form-control" id="fileHazmatReport"
+                                        <input type="file" class="form-control" id="File Hazmat Report"
                                             name="fileHazmatReport" accept=".pdf,.doc,.docx">
                                     </div>
                                     <div class="col-12" id="uploadPhotosConcern" style="display: none;">
                                         <label for="fileAreaConcern">Upload Photos of Concern:</label>
-                                        <input type="file" class="form-control" id="fileAreaConcern"
+                                        <input type="file" class="form-control" id="File Area Concern"
                                             name="fileAreaConcern" accept="image/*">
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" name="subject"
+                                            <input type="text" class="form-control" id="subject" name="Subject:"
                                                 placeholder="Subject" required>
                                             <label for="subject">Property Address</label>
                                         </div>
@@ -250,7 +250,7 @@
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here"
-                                                id="message" name="message" style="height: 150px" required></textarea>
+                                                id="message" name="Message:" style="height: 150px" required></textarea>
                                             <label for="message">Brief Description</label>
                                         </div>
                                     </div>
