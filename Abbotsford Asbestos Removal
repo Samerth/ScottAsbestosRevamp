@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Scott Asbestos specializes in hazardous material removal and safety solutions in British Columbia. Contact us for asbestos abatement, lead sampling, mold remediation, and more.">
+    <title>Scott Asbestos</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/scott_logo.png" alt="icon" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div><!-- class="icon p-2 me-2" -->
+                        <img class="img-fluid" src="img/scott_logo.png" alt="scott_logo"
+                            style="width: 160px; height: 90px;">
+                    </div>
+                    <h1 class="m-0 text-primary"></h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="https://www.scottasbestos.com/" class="nav-item nav-link active">Home</a>
+                        <a href="https://www.scottasbestos.com/AboutUs.html" class="nav-item nav-link">About Us</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="https://www.scottasbestos.com/Asbestos_Sampling.html" class="dropdown-item">Asbestos Sampling</a>
+                                <a href="https://www.scottasbestos.com/AsbestosAbatement.html" class="dropdown-item">Asbestos Abatement</a>
+                                <a href="https://www.scottasbestos.com/LeadSampling.html" class="dropdown-item">Lead Sampling</a>
+                                <a href="https://www.scottasbestos.com/LeadAbatement.html" class="dropdown-item">Lead Abatement</a>
+                                <a href="https://www.scottasbestos.com/HMIReports.html" class="dropdown-item">Hazardous Material Inspection
+                                    Reports</a>
+                                <a href="https://www.scottasbestos.com/Bio-Hazard.html" class="dropdown-item">Biohazard and Trauma cleanup</a>
+                                <a href="https://www.scottasbestos.com/mould_inspection.html" class="dropdown-item">Mould Inspections and Indoor Air
+                                    Quality Testing</a>
+                                <a href="https://www.scottasbestos.com/mould_remediation.html" class="dropdown-item">Mould Remediation</a>
+                                <a href="https://www.scottasbestos.com/Demolition.html" class="dropdown-item">Building Demolition</a>
+                                <a href="https://www.scottasbestos.com/Media-Blasting.html" class="dropdown-item">Media Blasting</a>
+                            </div>
+                        </div>
+                        <a href="https://www.scottasbestos.com/projects.html" class="nav-item nav-link">Projects</Prog></a>
+                        <!-- <a href="index.html" class="nav-item nav-link active">Blog</a> -->
+                        <a href="https://www.scottasbestos.com/contact.html" class="nav-item nav-link">Contact US</a>
+                    </div>
+                    <!-- <a href="contact.html#estimate-form" class="btn btn-primary px-3 d-none d-lg-flex">Get Quotes</a> -->
+                    <span class="btn btn-primary px-3 d-none d-lg-flex call-icon">
+                        <span>☎ Get Quotes</span>
+                        <span class="call-number">(778) 400-6715</span>
+                    </span>
+
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <br>
+                    <br>
+                    <br>
+                    <!-- <h1 class="display-5 animated fadeIn mb-4">Experts in <span class="text-primary">Hazardous Safety
+                        </span> Solutions.</h1> -->
+                        <h2>Abbotsford Asbestos Removal </h2>
+                    <p class="animated fadeIn mb-4 pb-2">Your New Law <span class="text-primary"><a
+                                href="https://www.worksafebc.com/en/health-safety/education-training-certification/asbestos-training-certification-licensing">WorkSafeBC</a></span>
+                        certified Partner in Hazard Mitigation and Safety Solutions</p>
+                    <p class="animated fadeIn mb-4 pb-2"></p>
+                    <a href="contact.html#estimate-form" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">GET AN ONLINE ESTIMATE</a>
+
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid w-100 custom-image" src="img/8.jpg" alt="AsbestosAbatement"
+                                style="width: 16.93cm; height: 16.93cm;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid w-100" src="img/5.jpg" alt="LeadAbatement"
+                                style="width: 16.93cm; height: 16.93cm;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid w-100" src="img/6.jpg" alt="AsbestosAbatement"
+                                style="width: 16.93cm; height: 16.93cm;">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid w-100" src="img/Containment and NEG air.jpg" alt="Demolition"
+                                style="width: 16.93cm; height: 16.93cm;">>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+       <!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100" src="img/Blog 1.png" alt="Asbestos-BC">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="mb-4">What is Asbestos ?</h1>
+                <p class="mb-4">Asbestos is a naturally occurring mineral that has been used in various products for decades, including construction materials and automotive parts. However, over time, it has been discovered that asbestos fibres can cause serious health problems, including lung cancer, mesothelioma, and asbestosis. Therefore, it is essential to remove asbestos from homes and buildings, especially those built before the 1980s.
+
+                    If you are looking for asbestos removal services in Abbotsford, BC, Scott Asbestos is a reputable company that specializes in asbestos removal and abatement. In this article, we will provide you with all the information you need to know about asbestos removal, including the risks of asbestos exposure, the importance of hiring a professional, and the services provided by Scott Asbestos.</p>
+          
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Asbestos Removal Services Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <h2>The Risks of Asbestos Exposure</h2>
+        <p>Exposure to asbestos fibres can cause serious health problems, such as lung cancer, mesothelioma, and asbestosis. These diseases can take years to develop, and symptoms may not appear until decades after exposure. Asbestos fibres can become airborne during construction or renovation projects, making it essential to have asbestos-containing materials removed from homes and buildings.</p>
+         <p>Asbestos fibres are too small to see with the naked eye, and they can easily be inhaled. Once inhaled, these fibres can become trapped in the lungs and other organs, causing scarring and inflammation. Over time, this can lead to serious health problems, including cancer and respiratory disease.</p>
+        
+        <h2>The Importance of Hiring a Professional</h2>
+        <p>Removing asbestos-containing materials is a dangerous task that should only be done by trained professionals. Attempting to remove asbestos yourself can put you and your family at risk of exposure to these harmful fibres. It is essential to hire a licensed and certified asbestos removal company to ensure that the materials are removed safely and efficiently.</p>
+        <p>Scott Asbestos is a licensed and certified asbestos removal company in Abbotsford, BC, with years of experience in the industry. Our team of experts is trained in the safe removal and disposal of asbestos-containing materials and follows strict guidelines to ensure the safety of our clients and our workers.</p>
+        
+        <h2>Services Provided by Scott Asbestos</h2>
+        <p>At Scott Asbestos, we offer a wide range of asbestos removal and abatement services to our clients in Abbotsford, BC, and the surrounding areas. Our services include:</p>
+        <ul>
+            <li><strong>Asbestos Testing:</strong> Before any asbestos-containing materials are removed from your home or building, it is essential to determine if they contain asbestos. Our team of experts can perform asbestos testing to identify the presence of asbestos and determine the appropriate course of action.</li>
+            <li><strong>Asbestos Removal:</strong>If asbestos-containing materials are identified, our team of professionals can safely remove them from your home or building. We follow strict guidelines to ensure that the materials are removed safely and efficiently.</li>
+            <li><strong>Asbestos Abatement:</strong>If asbestos-containing materials cannot be removed, our team of experts can perform asbestos abatement to contain the fibres and prevent them from becoming airborne. This can help reduce the risk of exposure to asbestos fibres.</li>
+            <li><strong>Asbestos Disposal:</strong>Once the asbestos-containing materials have been removed or abated, they must be disposed of properly. We follow all guidelines and regulations to ensure that the materials are disposed of safely and legally.</li>
+        </ul>
+        
+        <h2>Conclusion</h2>
+        <p>Asbestos removal is a serious matter that should only be handled by trained professionals. If you suspect that your home or building contains asbestos-containing materials, it is essential to contact a licensed and certified asbestos removal company like Scott Asbestos. Our team of experts is trained in the safe removal and disposal of asbestos-containing materials and can help protect you and your family from the dangers of asbestos exposure. Contact us today to learn more about our services and how we can help you.</p>
+    </div>
+</div>
+<!-- Asbestos Removal Services End -->
+
+      
+
+
+        <!-- Awards & Recognitions Start -->
+        <div class="container py-5">
+            <h2 class="text-center mb-4">Awards & Recognitions</h2>
+            <div class="row g-5">
+                <div class="col-md-3 d-flex flex-column align-items-center"> <!-- Updated column class -->
+                    <img src="img/city_of_surrey.png" alt="City of Surrey Logo" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3 d-flex flex-column align-items-center"> <!-- Updated column class -->
+                    <img src="img/worksafebc_logo.png" alt="WorkSafeBC Logo" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-3 d-flex justify-content-center flex-column align-items-center"> <!-- Updated column class -->
+                    <img src="img/consumer.jpg" alt="Consumer Choice 2024 Surrey Logo" class="img-fluid mb-3"
+                        style="max-width: 150px;">
+                </div>
+                <div class="col-md-3 d-flex flex-column align-items-center"> <!-- Updated column class -->
+                    <img src="img/havan_logo.png" alt="HAVAN Logo" class="img-fluid mb-3">
+                </div>
+            </div>
+        </div><!-- Awards & Recognitions End -->
+        
+        
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn " data-wow-delay="0.1s">
+        <div class="container py-5  justify-content-center">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 ">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>18418 53 Ave #103, Surrey, BC V3S 7A4,
+                        Canada</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(778) 400-6715</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@scottasbestos.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/ScottRemov36441"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/scottasbestos/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.instagram.com/scottasbestos?fbclid=IwAR2IMeH5qndNbF-O1DrXIp382TV5M4fbxjt4B0Cb38oEt0eYm2AkbPGGwvg"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.linkedin.com/company/scott-asbestos-and-hazardous-material-removal-ltd/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div>
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <div class="col-md-12">
+                            <ul class="list-unstyled">
+                                <li><a class="btn btn-link text-white-50" href="https://www.scottasbestos.com/AboutUs.html">About Us</a></li>
+                                <li><a class="btn btn-link text-white-50" href="https://www.scottasbestos.com/contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <h5 class="text-white mb-4">Photo Gallery</h5>
+                    <div class="row g-2 pt-2" id="gallery">
+                        <!-- Project 1 Images -->
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/0.jpg" alt="Lead-Paint-Removal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/1.jpg" alt="Lead-Paint-Removal">
+                        </div>
+                        <!-- <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/2.jpg" alt="Lead-Paint-Removal">
+                        </div> -->
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/3.jpg" alt="Lead-Paint-Removal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/4.jpg" alt="Lead-Paint-Removal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/5.jpg" alt="HMI-Sampling">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/6.jpg" alt="HMI-Sampling">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/7.jpg" alt="HMI-Sampling">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/8.jpg" alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/abatement.jpg" alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/pipe_insulation.jpg"
+                                alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/banner4.webp" alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/Disposal.jpg" alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/mouldy_ceiling.jpg"
+                                alt="Drywall-Disposal">
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <img class="img-fluid rounded bg-light p-1" src="img/Photo_Gallery/service_leadabatement.jpg"
+                                alt="Drywall-Disposal">
+                        </div>
+                        <!-- Add more images as needed -->
+                    </div>
+                </div>
+
+                <!-- Expanded Image Gallery Modal -->
+                <div id="galleryModal" class="modal">
+                    <span class="close-btn">&times;</span>
+                    <div class="modal-content">
+                        <!-- Image slider will be added here -->
+                        <img id="expandedImage" class="expanded-img" src="" alt="Expanded Image">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0">Interested in working with us? Send us an email at <a
+                                href="mailto:info@scottasbestos.com">info@scottasbestos.com</a></p>
+                    </div>
+                </div>
+
+     
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Copyright © 2024 Scott Asbestos And Hazardous Material
+                            Removal Ltd.</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://codsphere.in">CodSphere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Scott Asbestos And Hazardous Material Removal Ltd.",
+          "url": "https://www.scottasbestos.com/",
+          "logo": "https://www.scottasbestos.com/img/scott_logo.png",
+          "description": "Experts in Hazardous Safety Solutions",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "18418 53 Ave #103",
+            "addressLocality": "Surrey",
+            "addressRegion": "BC",
+            "postalCode": "V3S 7A4",
+            "addressCountry": "Canada"
+          },
+          "telephone": "(778) 400-6715",
+          "image": "https://www.scottasbestos.com/img/scott_logo.png"
+        }
+        </script>
+</body>
+
+</html>
