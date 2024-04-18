@@ -1,0 +1,1 @@
+RedirectMatch 301 ^/abbotsford-asbestos-removal/?$ /abbotsford-asbestos-removal.html
