@@ -558,3 +558,8 @@ textarea:required {
 .fixed-height {
     height: 100%; /* Set a fixed height for all project boxes */
 }
+
+
+.text-justify {
+    text-align: justify;
+}
